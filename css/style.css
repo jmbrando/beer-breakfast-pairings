@@ -1,0 +1,110 @@
+/* universal styles */
+html {
+  font-size: 100%;
+}
+
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f2f2e4;
+  color: #3D4A32;
+}
+
+main {
+  flex: 1;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Architects Daughter', cursive;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2.25rem;
+  line-height: 3rem;
+  margin-bottom: 1.5rem;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #98A685;
+}
+
+a:hover {
+  color: #D9896C;
+}
+
+a:active {
+  color: #D9896C;
+}
+
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 1.5rem 1rem;
+}
+
+/* body styles */
+header {
+  background-color: #3D4A32;
+  color: #98A685;
+  border-bottom: 0.5rem solid #D9896C;
+}
+
+header .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 3rem 1rem;
+  align-items: center;
+}
+
+header h1 {
+  margin: 1.5rem 3rem 1.5rem 0;
+}
+
+nav ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+nav ul li {
+  margin-left: 1.5rem;
+}
+
+nav ul li:first-of-type {
+  margin: 0;
+}
+
+main h2 {
+  margin-top: 1.5rem;
+}
+
+footer {
+  background-color: #3D4A32;
+  color: #98A685;
+  border-top: 0.5rem solid #D9896C;
+}
+
+footer p {
+  margin: 0;
+}
