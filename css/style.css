@@ -9,7 +9,7 @@ body {
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   background-color: #f2f2e4;
-  color: #3D4A32;
+  color: #1D2A12;
 }
 
 main {
@@ -57,6 +57,10 @@ a:active {
   color: #D9896C;
 }
 
+main a {
+  color: #1D2A12;
+}
+
 .container {
   max-width: 60rem;
   margin: 0 auto;
@@ -65,7 +69,7 @@ a:active {
 
 /* body styles */
 header {
-  background-color: #3D4A32;
+  background-color: #1D2A12;
   color: #98A685;
   border-bottom: 0.5rem solid #D9896C;
 }
@@ -95,12 +99,23 @@ nav ul li:first-of-type {
   margin: 0;
 }
 
+main figure {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 0;
+}
+
+main figure img {
+  flex-basis: 100%;
+}
+
 main h2 {
   margin-top: 1.5rem;
 }
 
 footer {
-  background-color: #3D4A32;
+  background-color: #1D2A12;
   color: #98A685;
   border-top: 0.5rem solid #D9896C;
 }
