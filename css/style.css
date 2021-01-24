@@ -99,15 +99,25 @@ nav ul li:first-of-type {
   margin: 0;
 }
 
-main figure {
+.banner {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   margin: 0;
 }
 
-main figure img {
-  flex-basis: 100%;
+.banner .home {
+  background-image: url('../img/banner-home.webp');
+}
+
+.banner .pairings {
+  background-image: url('../img/banner-pairings.webp');
+}
+
+.banner-img {
+  height: 30rem;
+  background-position: center;
+  background-size: cover;
 }
 
 main h2 {
