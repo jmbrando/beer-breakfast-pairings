@@ -4,9 +4,6 @@ html {
 }
 
 body {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   background-color: #f2f2e4;
   color: #1D2A12;
@@ -16,7 +13,7 @@ main {
   flex: 1;
 }
 
-h1, h2, h3, h4 {
+h1, h2, h3, h4, b {
   font-family: 'Architects Daughter', cursive;
 }
 
@@ -28,6 +25,11 @@ h2 {
   font-size: 2.25rem;
   line-height: 3rem;
   margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+  line-height: 3rem;
 }
 
 p {
@@ -107,10 +109,12 @@ nav ul li:first-of-type {
 }
 
 .banner .home {
+  background-image: url('../img/banner-home.jpg');
   background-image: url('../img/banner-home.webp');
 }
 
-.banner .pairings {
+.banner .banner-pairings {
+  background-image: url('../img/banner-pairings.jpg');
   background-image: url('../img/banner-pairings.webp');
 }
 
@@ -122,6 +126,43 @@ nav ul li:first-of-type {
 
 main h2 {
   margin-top: 1.5rem;
+}
+
+.pairings {
+  margin-top: 3rem;
+}
+
+.pairing {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 5rem;
+  align-items: flex-start;
+}
+
+.pairing picture {
+  flex-basis: 40%;
+  outline: none;
+  border: 6px solid #D9896C;
+  border-radius: 5px;
+}
+
+.pairing:nth-child(even) picture {
+  order: 2;
+}
+
+.pairing .pairing-text {
+  flex-basis: calc(60% - 1.5rem);
+}
+
+.pairing p:first-of-type {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.pairing b {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
 }
 
 footer {
