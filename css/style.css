@@ -124,6 +124,10 @@ nav ul li:first-of-type {
   background-size: cover;
 }
 
+.banner span {
+  line-height: 1.5rem;
+}
+
 main h2 {
   margin-top: 1.5rem;
 }
