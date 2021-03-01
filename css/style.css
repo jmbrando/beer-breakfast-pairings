@@ -14,7 +14,7 @@ main {
 }
 
 h1, h2, h3, h4, b {
-  font-family: 'Architects Daughter', cursive;
+  font-family: 'Kaushan Script', cursive;
 }
 
 h1 {
@@ -124,12 +124,34 @@ nav ul li:first-of-type {
   background-size: cover;
 }
 
-.banner span {
+.banner span,
+picture span {
   line-height: 1.5rem;
 }
 
 main h2 {
   margin-top: 1.5rem;
+}
+
+.intro-body {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.intro-body picture {
+  flex-basis: 100%;
+  margin-bottom: 1.5rem;
+}
+
+@media (min-width: 700px) {
+  .intro-body p:nth-of-type(2) {
+    flex-basis: calc((100% - 1rem) * 0.4);
+  }
+
+  .intro-body picture {
+    flex-basis: calc((100% - 1rem) * 0.6);
+  }
 }
 
 .pairings {
