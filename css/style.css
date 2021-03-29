@@ -84,6 +84,21 @@ header .container {
   align-items: center;
 }
 
+header .logo {
+  display: flex;
+  align-items: center;
+}
+
+header .logo svg {
+  width: 3.5rem;
+  height: 3.5rem;
+  margin-right: 1rem;
+  padding: 0.5rem;
+  padding-right: 0.25rem;
+  border: 3px solid #98A685;
+  border-radius: 100%;
+}
+
 header h1 {
   margin: 1.5rem 3rem 1.5rem 0;
 }
@@ -197,6 +212,22 @@ footer {
   border-top: 0.5rem solid #D9896C;
 }
 
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 footer p {
   margin: 0;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.footer-nav li {
+  margin-left: 1.5rem;
 }
