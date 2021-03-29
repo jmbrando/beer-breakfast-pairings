@@ -206,6 +206,10 @@ main h2 {
   line-height: 1.5rem;
 }
 
+main .closing {
+  margin-bottom: 3rem;
+}
+
 footer {
   background-color: #1D2A12;
   color: #98A685;
